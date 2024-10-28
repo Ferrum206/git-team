@@ -9,8 +9,8 @@ body {
 .container {
   height: 100px;
   background-color: #403c3b;
-  // display: flex;
-  // align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -20,13 +20,56 @@ body {
 }
 
 .address {
-  color: #504b4a;
+  background-color: #504b4a;
   border-radius: 10px;
+  border: 1px solid #504b4a;
+  // padding: 15px 15px;
+  width: 500px;
+  height: 55px;
+  color: white;
+  font-size: 23px;
 }
 
 .btn {
   border-radius: 24px;
   background: linear-gradient(to right, #618967, #72a479);
-  padding: 24px 24px;
+  width: 40px;
+  height: 40px;
   border: 1px solid #61896700;
+}
+
+.btn img {
+  width: 24px;
+  height: 24px;
+  padding-top: 4px;
+}
+
+.contact {
+  color: #cfcfcf;
+  display: flex;
+  flex-direction: column;
+}
+
+.number {
+  color: white;
+}
+
+.buy_button {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  gap: 20px;
+  background: linear-gradient(to right, #618967, #72a479);
+  width: 150px;
+  height: 55px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.buy_basket {
+  margin: 0;
+}
+
+.all {
+  display: flex;
 }
