@@ -11,21 +11,18 @@ body {
   background-color: #403c3b;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .logo {
   margin: 0;
   color: white;
   letter-spacing: 15%;
-  padding-left: 90px;
 }
 
 .address {
   background-color: #504b4a;
   border-radius: 10px;
   border: 1px solid #504b4a;
-  // padding: 15px 15px;
   width: 500px;
   height: 55px;
   color: white;
@@ -37,14 +34,13 @@ body {
   background: linear-gradient(to right, #618967, #72a479);
   width: 40px;
   height: 40px;
-  border: 1px solid #61896700;
-  display: flex;
-  align-items: center;
+  border: 1px solid rgba(97, 137, 103, 0);
 }
 
 .btn img {
   width: 24px;
   height: 24px;
+  padding-top: 4px;
 }
 
 .contact {
@@ -67,32 +63,14 @@ body {
   height: 55px;
   border-radius: 10px;
   align-items: center;
-  justify-content: center;
 }
 
 .buy_basket {
   margin: 0;
-  width: 25px;
-  height: 25px;
-  background-color: white;
-  color: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 24px;
 }
 
 .all {
   display: flex;
-  align-items: center;
 }
 
-.overall {
-  display: flex;
-  align-items: center;
-  gap: 1.875rem;
-}
-
-.basket {
-  padding-right: 70px;
-}
+/*# sourceMappingURL=style.css.map */
